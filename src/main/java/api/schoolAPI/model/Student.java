@@ -18,13 +18,12 @@ import java.util.UUID;
 public class Student {
     @Id
     private String id;
-    @NonNull
     private String username;
     private String email;
     private int age;
-    private List<Courses> courses;
+    private List<String> courses;
 
-    public Student(@JsonProperty("username") String username,@JsonProperty("email") String email, @JsonProperty("age") int age,@JsonProperty("courses") List<Courses> courses){
+    public Student(@JsonProperty("username") String username,@JsonProperty("email") String email, @JsonProperty("age") int age,@JsonProperty("courses") List<String> courses){
         this.courses = courses;
         this.age = age;
         this.email = email;
