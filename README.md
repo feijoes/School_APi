@@ -6,4 +6,5 @@ A School APi using Sping Boot
 * models :
   * student
   * course
+  
 Maybe in the future i will add more things? idk
