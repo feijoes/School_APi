@@ -1,9 +1,10 @@
 # School_APi
 A School APi using Sping Boot
 
-### I am not creative in making api so i make it very simple
+### I am not creative in making api so i make it very simple APIRestFull
+Mongodb Connection
 
-* models :
+* Crud models :
   * student
   * course
   
